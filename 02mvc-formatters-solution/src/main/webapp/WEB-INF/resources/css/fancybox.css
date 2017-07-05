@@ -1,0 +1,20 @@
+﻿#fancybox-loading {position: fixed;top: 50%;left: 50%;width:26px;height:26px; padding:10px;background:#000; cursor: pointer;overflow: hidden;z-index: 1250;display: none;
+-webkit-border-radius :8px;-moz-border-radius :8px;-ms-border-radius :8px;-o-border-radius :8px;border-radius :8px;}
+#fancybox-loading div {position: absolute; top:10px !important; width:26px; height:26px; background:url('../images/loader.gif') no-repeat 0 0;}
+#fancybox-overlay {position: absolute;top: 0;left: 0;width: 100%;z-index: 1230;display: none;}
+#fancybox-tmp {padding: 0;margin: 0;border: 0;overflow: auto;display: none;}
+#fancybox-wrap {position: absolute;top: 0;left: 0;padding:0px;z-index: 1300 !important;outline: none;display: none; background:#ffffff; border:none;}
+#fancybox-outer {position: relative;width: 100%;height: 100%;background: #fff;}
+#fancybox-content {width: 0;height: 0;padding: 0;outline: none;position: relative;overflow: hidden;z-index: 1102; border:8px solid rgba(0,0,0,.8);}
+#fancybox-hide-sel-frame {position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: transparent;z-index: 1101;}
+#fancybox-close {position: absolute;top:20px;right:20px;width:20px;height:20px;background: transparent url('../images/sprite-graphics.png') -130px -33px;cursor: pointer;z-index: 1103;display: none;}
+#fancybox-error {color: #444;font: normal 12px/37px Arial;padding: 14px;margin: 0;}
+#fancybox-img {width: 100%;height: 100%;padding: 0;margin: 0;border: none;outline: none;line-height: 0;vertical-align: top;}
+#fancybox-frame {width: 100%;height: 100%;border: none;display: block;}
+#fancybox-left, #fancybox-right {position: absolute;bottom: 0px;height: 100%;width: 35%;cursor: pointer;outline: none;z-index: 1102;display: none;}
+#fancybox-left {left: 0px;}
+#fancybox-right {right: 0px;}
+#fancybox-left-ico, #fancybox-right-ico {position: absolute;top: 50%;left: -9999px;width: 30px;height: 30px;margin-top: -15px;cursor: pointer;z-index: 1102;display: block;}
+#fancybox-left:hover, #fancybox-right:hover {visibility: visible; /* IE6 */}
+#fancybox-left:hover span {left: 37px;}
+#fancybox-right:hover span {left: auto;right: 37px;}

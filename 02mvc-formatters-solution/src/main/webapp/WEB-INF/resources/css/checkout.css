@@ -1,0 +1,26 @@
+.loginbox { background:#fff !important;}
+.loginbox .box-right { min-height:250px;}
+
+.checkoutController .app-center { width: 978px !important; margin:0px auto; padding:0px;}
+.checkoutController .header-container { background:#f9f9f9; overflow:auto;-webkit-box-shadow: 0 1px 5px #bbb;-moz-box-shadow: 0 1px 5px #bbb;box-shadow: 0 1px 5px #bbb;}
+.place-order-section { margin:30px auto !important; width:100%; padding:30px 0px; display:block;}
+.open {background: #fff;z-index: 9;-webkit-box-shadow: 0 1px 5px #bbb;-moz-box-shadow: 0 1px 5px #bbb;box-shadow: 0 1px 5px #bbb;}
+.open .heading-bar {position: relative;width: 97%;font-size: 18px;padding: 11px 20px 11px 25px;margin: 0 10px 0px -8px;color: #fff;background-color: #2d5ba4;}
+.open .heading-bar:before {content: ' ';position: absolute;width: 0;height: 0;right: 0;top: 100%;border-width: 5px 7px 2px 0;border-style: solid;border-color: #666 transparent transparent #666;}
+.open .heading-bar:after {content: ' ';position: absolute;width: 0;height: 0;left: 0;top: 100%;border-width: 6px 1px 0 6px;border-style: solid;border-color: #666 #666 transparent transparent;}
+.panel-heading .title span { font-weight:bold;}
+.login .panel-body {padding: 10px 80px 0;}
+.panel-body { min-height:350px;}
+.closed .collapsed-state {display: block;padding: 10px 5px;background: #f9f9f9;}
+.tick {display: inline-block;zoom: 1;position: relative;width: 1%;padding: 6px 15px 6px 12px;margin: 0 10px 5px -12px;color: #fff;background-color: #2d5ba4;}
+.tick:before {content: "\2713 ";}
+.tick:after {content: ' ';position: absolute;width: 0;height: 0;left: 0;top: 100%;border-width: 6px 0 0 7px;border-style: solid;border-color: #666 #666 transparent transparent;}
+.closed .collapsed-state .title {text-transform: uppercase; color:#333; margin-right:30px; width:20%;}
+.closed .panel-value { width:55%; display:inline-block; font-size:16px; font-weight:600;}
+.inline-block{ display: inline-block; }
+.co-panel.closed {padding: 10px 5px 10px 20px;-webkit-box-shadow: 0 1px 5px #bbb;-moz-box-shadow: 0 1px 5px #bbb;box-shadow: 0 1px 5px #bbb;}
+
+.payment-mode { padding:20px;}
+.co-panel.closed.completed, .co-panel payment.completed.open {padding: 0;border-bottom:none;}
+.co-panel.payment.open.closed.completed { padding: 10px 5px 10px 20px;}
+.panel-completed .title span { font-weight:bold;}

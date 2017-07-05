@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<context:component-scan      base-package="com.way2learnonline.controllers"/>
+
+	<util:properties id="applicationProps" location="/WEB-INF/application.properties" />
+	 
+	 <mvc:resources location="/WEB-INF/resources/" mapping="/resources-#{applicationProps['application.version']}/**"
+	 cache-period="600" />
+
+    <mvc:annotation-driven /> 
+    <mvc:default-servlet-handler/>
+
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    	<property name="order" value="2" />
+    </bean>
+    
+    <bean id="viewResolver"  
+		class="org.springframework.web.servlet.view.tiles3.TilesViewResolver">
+		<property name="order" value="1" />
+	</bean>
+	
+	<mvc:tiles-configurer validate-definitions="true">	
+		<mvc:definitions location="/WEB-INF/tiles.xml" />
+	</mvc:tiles-configurer>
+	
+	
+		<!-- <bean id="simpleMappingExceptionResolver"
+			class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+			<property name="exceptionMappings">
+				<map>
+					<entry key="com.way2learnonline.exceptions.CourseNotFoundException" value="coursenotfound" />
+					<entry key="com.way2learnonline.exceptions.InvalidRequestException" value="invalidrequest" />
+				</map>
+			</property>			
+			<property name="exceptionAttribute" value="ex" />
+			<property name="defaultErrorView" value="defaultErrorPage" />
+		</bean>
+		 -->
+	
+
+</beans>

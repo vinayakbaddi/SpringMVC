@@ -1,0 +1,26 @@
+package com.way2learnonline.service;
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Service;
+
+import com.way2learnonline.dao.AboutUsDao;
+import com.way2learnonline.entity.AboutUs;
+
+@Service
+public class AboutUsService implements IAboutUsService {
+	@Autowired
+	private AboutUsDao aboutUsDao;
+	
+	/* (non-Javadoc)
+	 * @see com.way2learnonline.service.IAboutUsService#get(java.lang.String)
+	 */
+	@Override
+	@Cacheable(value="aboutus")
+	public AboutUs get(String primaryKey) {
+		return aboutUsDao.get(primaryKey);
+	}
+
+}

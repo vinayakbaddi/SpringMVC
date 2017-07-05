@@ -1,0 +1,45 @@
+img, .image {max-width: 100%;height: auto;}
+
+.review-page-content { float:left; width:50%;}
+.review-page-contentright { float:right;}
+
+.support-reviews, .reviews-posts { padding:20px 20px 10px; margin:20px 10px 20px;  box-shadow: 0 1px 2px rgba(0,0,0,.1); background:#fff;}
+.review-page-content h4 { font-size:20px; margin-bottom:20px;}
+
+/* Star Rating */
+#course-list .item-meta{display: block;}
+.item-meta .students{display: inline-block;font-size:12px;font-weight:600;line-height: 16px;margin:5px 0;color:#bbb;}
+.star-rating{margin:5px 0;line-height: 16px;font-weight:600;width:200px;display: inline-block;color:#bbb;font-size:12px;}
+.star-rating span{display: inline-block;float:left;width:16px;height:16px;background: url(../images/stars.png) 0 100%;}
+.star-rating span:last-child{margin-right:5px;}
+.star-rating span.fill{display: inline-block;width:16px;height:16px;background: url(../images/stars.png) 0 0;}
+.star-rating a { color: #333; opacity: 0.7; text-decoration:underline;}
+
+.star-rating span.half{display: inline-block;width:16px;height:16px;background: url(../images/stars.png) 0 50%;}
+
+.review-title { padding: 10px 0;text-align: center; margin:20px -20px; color: #fff; background-color: #aaabab; text-transform:uppercase;}
+.each-reviews {border-bottom: 1px solid #dddddd;margin-bottom: 20px;padding-bottom: 11px;}
+.each-reviews .review-page-content { font-size:13px;}
+.each-reviews .more-posts a { font-size: 17px;}
+.each-reviews .cats { float:right; margin-bottom: 9px; margin-top: -28px !important;}
+.each-reviews .cats li { float:left;}
+.each-reviews .reviewsquots { clear:both;}
+.each-reviews .link { clear:both; font-size:13px;}
+
+.more-posts .review-page-content { min-height:50px;}
+.more-posts .star-rating { float:none !important; clear:both;}
+.posts li img, .tab-pane li img {float: left;border: 3px solid #eef1f3;width: 60px;margin-right: 10px;height: auto;}
+.support-reviews li img { border:none; width:auto;}
+.review-page-contentright p {padding-left: 44px;}
+.review-page-content .each-reviews:last-child { border:none;}
+.support-reviews li .name-ticket { font-size:17px;}
+.support-reviews li .ticket-time {float: left;font-size:13px;width:90%;}
+
+
+.phoneicon { background: url(../images/phone-icon.png) no-repeat; margin-top: 0px;}
+.phoneicon ul {margin-left: 17%;}
+.contact-mobile { margin-bottom:10px;}
+.contact-mobile li {font-size: 12px;font-weight: 600;text-transform: none;border-top: 1px solid #efefef; padding:5px 0px;}
+.contact-mobile li:first-child { border-top:none}
+
+

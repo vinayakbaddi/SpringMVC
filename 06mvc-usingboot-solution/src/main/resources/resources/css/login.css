@@ -1,0 +1,32 @@
+.loginbox {background:#EDEFF1;color:#355368;margin:0;padding:0px;}
+.loginbox .submit-row { margin:5px 0px 10px;}
+.loginbox .box-wrapper { padding:10px 0px}
+.loginbox .submit-row>input {height:35px;font-weight:700;font-size:16px; margin:0 10px 0 0;}
+.loginbox .box-heading {text-align:center;color:#355368;font-size:24px;border-bottom:1px solid #d3d3d3;padding:10px 0;margin:0;}
+.loginbox h4 {font-size:16px;color:#355368;margin:0;}
+.loginbox .social-btn {margin-top:10px;padding:0px 20px 0px 0px; color:#fff; width:200px; display:block;}
+.loginbox .box-col {padding:20px 10px;}
+.loginbox .box-left { float:left;}
+.loginbox .box-right { float:right; width:45%; border-left:1px solid #d3d3d3; padding-left:50px;}
+.loginbox .box-separator {background:#d3d3d3;width:1px;}
+.loginbox .text-input { padding:6px; width:80%; margin:5px 0; font-size:16px;}
+.loginbox .social-btn .social-icon {display:inline-block;font-size:20px;border-right:1px solid rgba(0,0,0,.2);
+margin-right:10px;width:40px;text-align:center;font-weight:700;padding:10px 0 10px 5px;}
+.loginbox .facebook-btn {background:#2b85c3;}
+.loginbox .facebook-btn:hover {background:#2979b0;}
+.loginbox .google-btn {background:#d03a3c;}
+.loginbox .google-btn:hover {background:#b73638;}
+.loginbox .email-btn {background:#5cb85c;display:inline-block;text-align:center;padding:15px 0 15px 5px;}
+.loginbox .email-btn:hover {background:#4cae4c;}
+
+.loginbox .fields-wrapper { margin-top:5px;}
+.loginbox .control { margin:0px; padding:0px;}
+
+.loginbox .cancel-link {display:inline-block;margin-top:10px;}
+.loginbox .box-footer {border-top:1px solid #d3d3d3;margin:0;box-shadow:0 1px #fff inset;padding:15px 0;text-align:center;}
+.loginbox .terms-text { font-size:12px; margin:5px 0px;}
+.loginbox .forgot-row {margin-top:10px;text-align:center;}
+.fancybox-inner .loginbox {border:0;margin:0;}
+
+.signup-box .box-wrapper { padding:20px 0px; width:290px; margin:0px auto;}
+.signup-box .text-input { width:96%;}
