@@ -21,6 +21,7 @@ import com.way2learnonline.repository.DeploymentRepository;
 import com.way2learnonline.repository.ServerGroupRepository;
 import com.way2learnonline.repository.ServerRepository;
 
+@SuppressWarnings("unused")
 @SpringBootApplication
 public class TestDataPopulator {
 

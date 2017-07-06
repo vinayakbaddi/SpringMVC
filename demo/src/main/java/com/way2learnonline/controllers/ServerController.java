@@ -31,6 +31,7 @@ import com.way2learnonline.model.Server;
 import com.way2learnonline.repository.ClusterRepository;
 import com.way2learnonline.repository.ServerRepository;
 
+	@SuppressWarnings("unused")
 	@Controller
 	@RequestMapping("/servers")
 	public class ServerController {
