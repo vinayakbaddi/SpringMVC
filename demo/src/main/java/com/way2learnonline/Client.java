@@ -23,7 +23,7 @@ public class Client {
 
 		RestTemplate restTemplate=  new RestTemplate();
 		
-		String baseURL="http://localhost:3030/";	
+		String baseURL="http://localhost:8080/";	
 		
 	
 		String url=baseURL+"/servers/1";	
